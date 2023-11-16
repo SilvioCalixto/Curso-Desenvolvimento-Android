@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <EditText
         android:id="@+id/editTextTelefone"
@@ -69,26 +69,26 @@
         android:id="@+id/btnLimpar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:layout_marginBottom="96dp"
         android:text="@string/txt_button_limpar"
         app:layout_constraintBottom_toTopOf="@+id/btnFinalizar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btnSalvar" />
+        app:layout_constraintTop_toTopOf="@+id/btnSalvar"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="32dp" />
 
     <Button
         android:id="@+id/btnSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="180dp"
+        android:layout_marginStart="251dp"
         android:layout_marginTop="52dp"
+        android:layout_marginEnd="28dp"
         android:text="@string/txt_button_salvar"
         app:layout_constraintBottom_toTopOf="@+id/btnFinalizar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btnLimpar"
+        app:layout_constraintStart_toStartOf="@+id/btnLimpar"
         app:layout_constraintTop_toBottomOf="@+id/editTextTelefone"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintVertical_bias="0.056" />
 
     <Button
         android:id="@+id/btnFinalizar"

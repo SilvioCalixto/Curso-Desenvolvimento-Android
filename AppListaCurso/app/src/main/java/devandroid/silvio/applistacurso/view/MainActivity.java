@@ -1,8 +1,10 @@
-package devandroid.silvio.applistacurso;
+package devandroid.silvio.applistacurso.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import devandroid.silvio.applistacurso.R;
 
 public class MainActivity extends AppCompatActivity {
 
